@@ -10,7 +10,7 @@ export class ColoresService {
   constructor(private http: HttpClient) { }
 
   getColores(query: string): Observable<any> {
-    return this.http.get(`https://colormagic.app/api/palette/search?q=${query}`);
+    return this.http.get(`/api/palette/search?q=${query}`);
   }
 
 
