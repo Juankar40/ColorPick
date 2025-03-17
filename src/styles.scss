@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+// main.scss
+@import './app/componentes/buscador/buscador.component.scss';
+@import './app/componentes/card/card.component.scss';
+@import './app/app.component.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

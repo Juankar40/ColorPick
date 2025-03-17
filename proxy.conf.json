@@ -1,0 +1,8 @@
+{
+  "/api": {
+    "target": "https://colormagic.app",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
